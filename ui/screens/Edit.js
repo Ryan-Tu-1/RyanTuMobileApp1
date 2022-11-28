@@ -55,23 +55,23 @@ export default function Edit(){
             <TxtInput value={lastName} onChangeText={setLastName} />
             <Label value="AGE:" />
             <TxtInput value={age} onChangeText={setAge} />
-            <Text style={theme.label}>EMAIL:</Text>
+            <Text style={theme.label}>Email:</Text>
             <TxtInput value={email} onChangeText={setEmail} />
-            <Text style={theme.label}>PHONE:</Text>
+            <Text style={theme.label}>Phone:</Text>
             <TxtInput value={phone} onChangeText={setPhone} />
-            <Text style={theme.label}>DEPARTMENT:</Text>
+            <Text style={theme.label}>Department:</Text>
             <TxtInput value={department} onChangeText={setDepartment} />
-            <Text style={theme.label}>ADDRESS:</Text>
-            <Text style={theme.label}>STREET:</Text>
+            <Text style={theme.label}>Address:</Text>
+            <Text style={theme.label}>Street:</Text>
             <TxtInput value={street} onChangeText={setStreet} />
-            <Text style={theme.label}>SUBURB:</Text>
+            <Text style={theme.label}>Surburb:</Text>
             <TxtInput value={suburb} onChangeText={setSuburb} />
-            <Text style={theme.label}>STATE:</Text>
+            <Text style={theme.label}>State:</Text>
             <TxtInput value={state} onChangeText={setState} />
-            <Text style={theme.label}>COUNTRY:</Text>
+            <Text style={theme.label}>Country:</Text>
             <TxtInput value={country} onChangeText={setCountry} />
             <Pressable style={theme.saveButton} onPress={submit}>
-                <Text style={theme.saveButtonText}>SAVE</Text>
+                <Text style={theme.saveButtonText}>Save</Text>
             </Pressable>
         </View>
     ); 

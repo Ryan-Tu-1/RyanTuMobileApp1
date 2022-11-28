@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 //https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 const theme = StyleSheet.create({
     label:{
-        fontWeight:'bold'
+        color:"purple"
     },
     userTile:{
         display:'flex',
@@ -19,7 +19,7 @@ const theme = StyleSheet.create({
         justifyContent:'space-between'
     },
     userTileButton:{
-        backgroundColor:'blue',
+        backgroundColor:'green',
         padding:5,
         marginLeft:2.5,
         minWidth:55,
@@ -27,6 +27,7 @@ const theme = StyleSheet.create({
     },
     userTileButtonText:{
         color:'#fff',
+        fontFamily: "Cursive",
         textAlign:'center'
     },
     addContactButton:{
@@ -35,6 +36,7 @@ const theme = StyleSheet.create({
     },
     addContactButtonText:{
         color:'#fff',
+        fontFamily: "Cursive",
         textAlign:'center'
     },
     deleteContactButton:{
@@ -43,16 +45,18 @@ const theme = StyleSheet.create({
     },
     deleteContactButtonText:{
         color:'#fff',
+        fontFamily: "Cursive",
         textAlign:'center'
     },
     saveButton:{
-        backgroundColor:'blue',
+        backgroundColor:'green',
         padding:5,
         marginTop:5
     },
     saveButtonText:{
         color:'#fff',
-        textAlign:'center'
+        textAlign:'center',
+        fontFamily: "Cursive"
     },
     cancelButton:{
         backgroundColor:'red',
@@ -61,7 +65,8 @@ const theme = StyleSheet.create({
     },
     cancelButtonText:{
         color:'#fff',
-        textAlign:'center'
+        textAlign:'center',
+        fontFamily: "Cursive",
     },  
     textInput:{
         backgroundColor:'#fff',
@@ -71,13 +76,12 @@ const theme = StyleSheet.create({
         margin:2.5,
         padding:2.5,
         fontWeight:2.5,
+        fontFamily: "Cursive",
         textAlign:2.5,
         color:'black', 
         Width:50   
     },
-    label:{
-        color:'green',
-    },
+
     
 
 

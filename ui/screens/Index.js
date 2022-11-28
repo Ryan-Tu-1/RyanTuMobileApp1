@@ -34,7 +34,7 @@ export default function Index(){
     return (
       <View>
         <Pressable  style={theme.addContactButton}  onPress={()=>navigation.navigate("Create")}>
-            <Text style={theme.addContactButtonText}>+ ADD CONTACT</Text>
+            <Text style={theme.addContactButtonText}>+ Add Contact</Text>
         </Pressable>
         {users.map(u=><User key={u.id} user={u}/>)}   
       </View>

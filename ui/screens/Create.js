@@ -43,28 +43,28 @@ export default function Create(){
     //JSX
     return (
         <View>
-            <Text style={theme.label}>FIRST NAME:</Text>
+            <Text style={theme.label}>First Name:</Text>
             <TextInput style={theme.textInput} value={firstName} onChangeText={setFirstName} />
-            <Text style={theme.label}>LAST NAME:</Text>
+            <Text style={theme.label}>Last Name:</Text>
             <TextInput style={theme.textInput} value={lastName} onChangeText={setLastName} />
-            <Text style={theme.label}>AGE:</Text>
+            <Text style={theme.label}>Age:</Text>
             <TextInput style={theme.textInput} value={age} onChangeText={setAge} />
-            <Text style={theme.label}>EMAIL:</Text>
+            <Text style={theme.label}>Email:</Text>
             <TextInput style={theme.textInput} value={email} onChangeText={setEmail} />
-            <Text style={theme.label}>PHONE:</Text>
+            <Text style={theme.label}>Phone:</Text>
             <TextInput style={theme.textInput} value={phone} onChangeText={setPhone} />
-            <Text style={theme.label}>DEPARTMENT:</Text>
+            <Text style={theme.label}>Department:</Text>
             <TextInput style={theme.textInput} value={department} onChangeText={setDepartment} />
-            <Text style={theme.label}>ADDRESS:</Text>
+            <Text style={theme.label}>Address:</Text>
             <TextInput style={theme.textInput} value={street} onChangeText={setStreet} />
-            <Text style={theme.label}>SUBURB:</Text>
+            <Text style={theme.label}>Surburb:</Text>
             <TextInput style={theme.textInput} value={suburb} onChangeText={setSuburb} />
-            <Text style={theme.label}>STATE:</Text>
+            <Text style={theme.label}>State:</Text>
             <TextInput  style={theme.textInput} value={state} onChangeText={setState} />
-            <Text style={theme.label}>COUNTRY:</Text>
+            <Text style={theme.label}>Country:</Text>
             <TextInput  style={theme.textInput} value={country} onChangeText={setCountry} />
             <Pressable onPress={submit}>
-                <Text>SAVE</Text>
+                <Text>Save</Text>
             </Pressable>
         </View>
     ); 

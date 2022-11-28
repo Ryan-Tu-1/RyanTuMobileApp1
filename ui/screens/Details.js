@@ -10,15 +10,17 @@ export default function Details(){
     //JSX
     return (
       <View>
-        <Text style={theme.label}>NAME:</Text>
+        <Text style={theme.label}>Name:</Text>
         <Text>{u.firstName} {u.lastName}</Text>
-        <Text style={theme.label}>AGE:</Text>
+        <Text style={theme.label}>Age:</Text>
         <Text>{u.age}</Text>
-        <Text style={theme.label}>EMAIL:</Text>
+        <Text style={theme.label}>Email:</Text>
         <Text>{u.email}</Text>
-        <Text style={theme.label}>PHONE:</Text>
-        <Text style={theme.label}>DEPARTMENT:</Text>
-        <Text style={theme.label}>ADDRESS:</Text>
+        <Text style={theme.label}>Phone:</Text>
+        <Text>{u.phone}</Text>
+        <Text style={theme.label}>Department:</Text>
+        <Text>{u.department}</Text>
+        <Text style={theme.label}>Address:</Text>
         <Text>{`${u.address.street}, ${u.address.suburb}, ${u.address.state}`}</Text>
       </View>
     ); 
