@@ -28,7 +28,9 @@ export default function Delete(){
         <Text style={theme.label}>Email:</Text>
         <Text>{u.email}</Text>
         <Text style={theme.label}>Phone:</Text>
+        <Text>{u.phone}</Text>
         <Text style={theme.label}>Department:</Text>
+        <Text>{u.department}</Text>
         <Text style={theme.label}>Address:</Text>
         <Text>{`${u.address.street}, ${u.address.suburb}, ${u.address.state}`}</Text>
         <Pressable style={theme.deleteContactButton} onPress={submit}>

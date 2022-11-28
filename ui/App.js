@@ -6,12 +6,13 @@ import Create from './screens/Create';
 import Edit from './screens/Edit';
 import Delete from './screens/Delete';
 
+
 export default function App() {
   const Stack = createNativeStackNavigator();
   return (
       <NavigationContainer>
-        <Stack.Navigator  initialRouteName="Index">
-          <Stack.Screen name="Index" component={Index} options={{ title: 'My Contacts' }}/>
+        <Stack.Navigator  initialRouteName="Index" >
+          <Stack.Screen name="Index"  component={Index} options={{ title: 'My Contacts' }}/>
           <Stack.Screen name="Details" component={Details} options={{ title: 'Contact Details' }} />
           <Stack.Screen name="Create" component={Create} options={{ title: 'Add Contacts' }}/>
           <Stack.Screen name="Edit" component={Edit} options={{ title: 'Update Contacts' }}/>
