@@ -14,6 +14,7 @@ export default function Delete(){
         .then(r=>{
           if(r.status == 204){
             navigation.navigate("Index",{op:'delete',data:u}); 
+            alert("Successful in deleting");
           }
         })
     }

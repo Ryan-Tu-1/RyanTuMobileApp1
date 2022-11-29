@@ -23,6 +23,7 @@ export default function Create(){
         let user =  getUserObject(); 
         addUserAsync(user)
             .then(json=>navigation.navigate("Index",{op:'create',data:json}));
+            alert("Successfully Added");
     }
     function getUserObject(){
         return {

@@ -27,6 +27,7 @@ export default function Edit(){
         updateUserAsync(getUserObject())
             .then(json=>{
                 navigation.navigate("Index",{op:'edit',data:json}); 
+                alert("Successfully Updated");
             });
     }
     function getUserObject(){
