@@ -7,6 +7,7 @@ export default function Details(){
     const navigation  = useNavigation(); 
     const route = useRoute(); 
     const u = route.params; 
+    console.log (u);
     //JSX
     return (
       <View>

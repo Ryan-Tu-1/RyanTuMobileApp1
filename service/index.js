@@ -36,6 +36,7 @@ const storage = require('node-persist');
         user.email = req.body.email; 
         user.phone = req.body.phone; 
         user.age = req.body.age; 
+        user.department = req.body.department;
         user.address= req.body.address; 
         user.updated = new Date(); 
         await storage.updateItem(id,user); 
