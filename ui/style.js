@@ -32,7 +32,9 @@ const theme = StyleSheet.create({
     },
     addContactButton:{
         backgroundColor:'green',
-        padding:5
+        padding:5,
+        width:100
+        
     },
     addContactButtonText:{
         color:'#fff',
